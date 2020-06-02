@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#FAFAFA"
+    >
+
+    <ImageView
+        android:id="@+id/register_icon"
+        android:layout_width="164dp"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/pond_logo" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="365dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:background="@drawable/inputs"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="279dp"
+        android:ems="10"
+        android:hint="Password"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/password"
+        android:background="@drawable/inputs"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="210dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:padding="10dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_create_account"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="125dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Create Account"
+
+        android:textColor="#FDFDFD"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+</RelativeLayout>

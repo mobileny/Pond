@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666595903455",
+    "firebase_url": "https://pond-1785a.firebaseio.com",
+    "project_id": "pond-1785a",
+    "storage_bucket": "pond-1785a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666595903455:android:60c8c343f3322e7263666a",
+        "android_client_info": {
+          "package_name": "com.example.pond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666595903455-vblcch7874pg3tsbecvh3crimi91ecnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pond",
+            "certificate_hash": "2c533d8a13c12a4ef4eae0e5ded500d131d9a2c2"
+          }
+        },
+        {
+          "client_id": "666595903455-p218c0tuceusks25egegsnetu5k5m82s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTpSnde_HUuOI0Ofah3EQ1Pqha3Uil9sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666595903455-p218c0tuceusks25egegsnetu5k5m82s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
